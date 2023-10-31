@@ -9,6 +9,23 @@ body{
    background-repeat: no-repeat, repeat;
    background-position: center;
    background-size: cover;
-   height: 650px;
+   height: 750px;
+
+}
+.quote-box {
+    background:#FFF6F6 ;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+
+
+
+
 
 }
