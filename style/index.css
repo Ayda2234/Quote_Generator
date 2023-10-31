@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url("blue.jpg");
+   background-repeat: no-repeat, repeat;
+   background-position: center;
+   background-size: cover;
+   height: 650px;
+
+}
