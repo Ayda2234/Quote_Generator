@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Just Another Hand', cursive;
 }
 
 body{
@@ -23,9 +25,68 @@ body{
     border-radius: 25px;
     text-align: center;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
-
-
-
-
+}
+.quote-box h2 {
+    font-size: 55px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.quote-box h2::after{ /*to add a line under a the title*/
+    content: '';
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgb(249, 27, 123);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.quote-box blockquote{
+    font-size: 40px;
+    min-height: 110px;
 
 }
+.quote-box blockquote::before, .quote-box blockquote::after{
+    content: '"';
+}
+.quote-box span{
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+.quote-box span::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background:rgb(249, 27, 123);
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+.quote-box div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.quote-box button{
+    font-size: 25px;
+    background: rgb(109, 236, 243);
+    color: black;
+    border-radius: 25px;
+    border:1px solid rgb(249, 27, 123);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 5px;
+}   
+
+
+
+
